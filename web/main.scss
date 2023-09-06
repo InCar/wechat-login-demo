@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.txt-em{
+    color: crimson;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.user-info{
+    display: flex;
+    flex-flow:column nowrap;
+    align-items: center;
+    img{
+        width: 120px;
+        height: 120px;
+    }
+}
+
+.hidden{
+    display: none;
+}
